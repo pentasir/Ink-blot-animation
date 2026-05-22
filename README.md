@@ -1,5 +1,5 @@
 # Ink Blot Animation
-![gif of the ink blot](https://github.com/pentasir/Ink-blot-animation/blob/b8f57a3e1d602b7d8241b198733db5293c20aa69/banner.gif)
+![gif of the ink blot](https://github.com/pentasir/Ink-blot-animation/blob/591b6bb81445cdfc4bff215c735383dc5a1ad538/banner.gif)
 
 [![Cursor](https://img.shields.io/badge/Cursor-Agent-161618?style=flat&logo=cursor&logoColor=white)](https://cursor.com/)
 [![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=flat&logo=visualstudiocode&logoColor=white)](https://code.visualstudio.com/)
