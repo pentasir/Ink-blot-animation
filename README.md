@@ -101,7 +101,7 @@ Also: silhouette *families* are **designed presets** (`15` ellipse parameters in
 2. **Ellipse envelope morph** — interpolated uniform arrays easing between adjacent presets  
 3. **Ink vs paper shaping** via threshold‑relative smooth transitions  
 4. **`requestAnimationFrame` loop** pushes `uTime` + morph easing variables  
-Slider UI live‑edits uniforms & CSS knobs for exploratory tuning ([demo](https://ink-blot-animation-q5lx.vercel.app)).
+Slider UI live‑edits uniforms & CSS knobs for exploratory tuning ([demo](https://inkblot-eight.vercel.app).
 
 ![screenshot of sliders](https://github.com/pentasir/Ink-blot-animation/blob/687d2b59022c8d334fcb85be9d1946c030e81fe4/sliders.png)
 
@@ -203,7 +203,7 @@ Install → right‑click ```index.html``` → Open with Live Server.
 
 Portfolio embed: [PENTASIR](https://pentasir.com)
 
-Interactive sliders build: [sandbox](https://ink-blot-animation-q5lx.vercel.app)
+Interactive sliders build: [sandbox](https://inkblot-eight.vercel.app)
 
 Professional enquiries/ remote jobs are welcome - [LinkedIn](https://www.linkedin.com/in/jason-don-b01390189/)
 
