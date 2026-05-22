@@ -11,7 +11,7 @@
 
 ## The Vision
 
-For my portfolio website I wanted something that feels like peering into a psychological mirror — an animation that’s alien-esque and ambiguous enough to invite interpretation, like the cultural idea of the Rorschach test (symmetrical “ink blots”), without claiming to recreate the standardized clinical plates.
+For my portfolio website I wanted something that feels like peering into a psychological mirror — an animation that’s alien-esque and ambiguous enough to invite interpretation, like the cultural idea of the Rorschach test (symmetrical “ink blots”), without claiming to recreate the standardised clinical plates.
 
 ---
 
@@ -20,12 +20,12 @@ For my portfolio website I wanted something that feels like peering into a psych
 
 ### Phase 1: Ferrofluid in CSS
 
-**Goal:** Emulate liquid mercury/ferrofluid physics
+**Goal:** Emulate liquid mercury/ferrofluid motion
 
 I started with **CSS blob animations** because:
 - Faster load times
 - Lower memory overhead (preserves bandwidth for other assets)
-- I think design-first, code-second (20% technical, 80% designer)
+- I was thinking design-first, code-second (80% designer, 20% technical)
 
 I spent days tweaking CSS blur, animations, and distortion effects but none of those iterations landed the specific silhouette language I wanted.
 
