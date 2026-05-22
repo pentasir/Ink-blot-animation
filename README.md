@@ -203,7 +203,12 @@ Install → right‑click ```index.html``` → Open with Live Server.
 
 ---
 
-This animation is live on my website [PENTASIR](https://pentasir.com). Buy my services pls. Or hire me for a remote job <3 My [LinkedIn](https://www.linkedin.com/in/jason-don-b01390189/)
+Portfolio embed: [PENTASIR](https://pentasir.com)
+
+Interactive sliders build: [sandbox](https://ink-blot-animation-q5lx.vercel.app)
+
+Professional enquiries/ remote jobs are welcome - [LinkedIn](https://www.linkedin.com/in/jason-don-b01390189/)
+
 
 ---
 
