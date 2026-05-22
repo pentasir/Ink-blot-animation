@@ -1,25 +1,19 @@
 #Ink Blot Animation
+![screenshot of the ink blot](https://github.com/pentasir/Ink-blot-animation/blob/e021db5ee5f81986547b69c11ae6da9f4cad9164/inkblot.png)
+
 [![Cursor](https://img.shields.io/badge/Cursor-Agent-161618?style=flat&logo=cursor&logoColor=white)](https://cursor.com/)
 [![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=flat&logo=visualstudiocode&logoColor=white)](https://code.visualstudio.com/)
 [![Ghostty](https://img.shields.io/badge/Ghostty-Terminal-4B5873?style=flat)](https://ghostty.org/)
 [![Claude](https://img.shields.io/badge/Claude-macOS_terminal-D4A574?style=flat&logo=anthropic&logoColor=white&labelColor=141413)](https://www.anthropic.com/claude)
 [![Three.js](https://img.shields.io/badge/Three.js-000?style=flat&logo=threedotjs&logoColor=white)](https://threejs.org/)
 
-[GIF/VIDEO of animation]
-
-An interactive psychological experience that blends ferrofluid dynamics, 
-Rorschach ink blot tests, and generative art. Deterministic, symmetric, 
-and designed to evoke the subconscious.
-
 ---
 
 ## The Vision
 
 For my portfolio website I wanted to create something that feels like peering into a psychological 
-mirror—an animation that's ambiguous enough to invite interpretation, 
+mirror an animation that's alien-esque and ambiguous enough to invite interpretation,
 like the Rorschach test itself.
-
-[Link to live demo/ gif
 
 ---
 
@@ -36,8 +30,7 @@ I started with **CSS blob animations** because:
 I spent days tweaking CSS blur, animations, and distortion effects. But none of this iterations produced what I had in mind.
 
 
-link picture here of CSS blur
-
+![screenshot of the CSS blot](https://github.com/pentasir/Ink-blot-animation/blob/e021db5ee5f81986547b69c11ae6da9f4cad9164/cssblur.png)
 
 ### Phase 2: The Rorschach Insight
 While researching, I discovered the **Rorschach ink blot test** (psychology):
@@ -88,6 +81,9 @@ them or relying on resource heavy physics simulations. The animation uses a GPU 
 **Result:** Every refresh looks different, but it's not wastefully random. 
 It *feels* organic while staying lightweight.
 
+![Gif of ink blot](https://github.com/pentasir/Ink-blot-animation/blob/e021db5ee5f81986547b69c11ae6da9f4cad9164/inkblotgif.gif)
+
+
 ---
 
 ## Technical Architecture
@@ -104,6 +100,8 @@ The shader handles:
 2. **Shape Morphing:** Smooth transitions between 6 base shapes
 3. **Elliptical Masking:** Constrains shapes into ink-blot-like forms
 4. **Animation Loop:** Soft, continuous morphing - alien esque, similar to the aien alphabet shown in the movie "Arrival"
+
+![screenshot of sliders](https://github.com/pentasir/Ink-blot-animation/blob/687d2b59022c8d334fcb85be9d1946c030e81fe4/sliders.png)
 
 ### Why This Approach?
 | Approach | Resource | Result |
@@ -146,6 +144,7 @@ The shader handles:
 - Few enough to stay performant
 - Allows for intentional design curation
 - Each shape is a "psychological anchor"
+- I was too lazy to add the whole 10 ink blots and my sessions kept timing out
 
 ---
 
@@ -164,7 +163,7 @@ Real fluid simulation would be beautiful but wasteful.
 Faking it with noise + hand-crafted shapes is faster, lighter, and more intentional.
 
 ### Randomness ≠ Chaos
-True randomness looks broken. Controlled randomness (6 shapes + noise) 
+True randomness looks broken -- but also a computer can't generate "true random". Controlled randomness (6 shapes + noise) 
 feels organic without being wasteful.
 
 ### Symmetry Is Psychology
@@ -194,7 +193,7 @@ I'd reject approaches that didn't match my aesthetic and vision, AI would adjust
 This shows how AI can accelerate development while maintaining 
 creative control.
 
-I think in the current age of technology, it is best to add AI to your tech stack without completely avoiding it. Especially if you are a creative person. Some visions are difficult to bring to life and this is where AI steps in. Although, you can argue that the difficulty of creating art is what makes it valuable at the end. Will any of this survive a thousand years? I don't know.
+I think in the current age of technology, it is best to add AI to your tech stack without completely avoiding it. Especially if you are a creative person. Some visions are difficult to bring to life and this is where AI steps in. Although, you can argue that the difficulty of creating art is what makes it valuable at the end. I am not technical in the sense of writing code but I play with man made horrors beyond my wildest imagination. Will any of this survive a thousand years? I don't know.
 
 ---
 
@@ -203,7 +202,7 @@ I think in the current age of technology, it is best to add AI to your tech stac
 The project is one HTML file plus Three.js loaded from the internet (cdn.jsdelivr.net). Use a recent Chrome, Firefox, Edge, or Safari with hardware acceleration/WebGL enabled.
 
 Method 1: Open the file directly (quickest try)
-Download rorschach-three.html.
+Download inkblot.html.
 Double-click it, or drag it into a browser window.
 Works on many setups. If WebGL/CDN scripts are blocked, use Method 2.
 
