@@ -39,9 +39,9 @@ While researching, I leaned on the **Rorschach ink blot test** (from popular cul
 
 *Idea:* What if I merged my blob animation with the Rorschach concept? 
 Viewers could explore an animation that felt like looking into their own 
-subconscious—every shape suggesting something different.
+subconscious, every shape suggesting something different.
 
-Side note - The clinical Rorschach test uses 10 ink blots while mine are 6 ink blots for artistic viewing.
+Side note - The clinical Rorschach test uses 10 ink blots while mine are 6 ink blots for visual purposes
 
 ### Phase 3: CSS Hits Its Limits
 **Problem:** CSS couldn’t give me sculpted, morph‑friendly silhouettes at the fidelity I wanted. Heavy blur/readability tradeoffs tended to muddy the blot “bones.”
