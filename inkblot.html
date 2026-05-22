@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rorschach — Three.js GPU noise + morph</title>
+  <link rel="stylesheet" href="inkblot.css" />
+</head>
+<body>
+  <div class="blob-wrap">
+    <div class="wrapper" id="blob-container"></div>
+    <div class="blob-edge-blend"></div>
+  </div>
+  <button id="controls-toggle" type="button"
+    onclick="document.getElementById('controls').style.display='block';this.style.display='none';">Show Controls</button>
+  <div id="controls">
+    <h3>Blob Tuning <span style="float:right;cursor:pointer;font-weight:400;" onclick="document.getElementById('controls').style.display='none';document.getElementById('controls-toggle').style.display='block';">&times;</span></h3>
+    <div id="slider-container"></div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.min.js"></script>
+  <script src="inkblot.js"></script>
+</body>
+</html>
