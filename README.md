@@ -166,8 +166,6 @@ Side note - I think in the current age of technology, it is best to add AI to yo
 ---
 
 ## Setup & Running Locally
-
-## Setup & Running Locally
 One HTML artifact + remote Three.js CDN (`cdn.jsdelivr.net`). Use a WebGL‑capable modern browser (+ network access for CDN pull).
 ### Method A: Quick open (`file:`)
 Download `index.html` → double click (or drag into browser). Often fine; CDN still loads over HTTPS while page is local.
