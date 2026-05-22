@@ -201,6 +201,25 @@ Follow CLI URL → pick ```index.html```.
 VS Code Live Server
 Install → right‑click ```index.html``` → Open with Live Server.
 
+## Project layout
+
+- **`index.html`** (or **`inkblot.html`**) — open in a browser  
+- **`inkblot.css`** — layout, blob frame, control panel styles  
+- **`inkblot.js`** — Three.js scene, GLSL shader strings, sliders  
+
+All three files live in the repo root and must stay **in the same folder** (same relative paths).
+
+---
+
+## One file vs split
+
+| Version | When to use |
+|--------|--------------|
+| **Split** (`html` + `css` + `js`) | Easier to edit; GitHub shows **HTML / CSS / JavaScript** in the language bar |
+| **Single-file** (optional) | Drop one `*.html` somewhere and share; simplest “copy one file” |
+
+*Individual source files are included in this repository; a single-file bundle is optional and not required to run the split version.*
+
 ---
 
 Portfolio embed: [PENTASIR](https://pentasir.com)
