@@ -203,9 +203,9 @@ Install → right‑click ```index.html``` → Open with Live Server.
 
 ## Project layout
 
-- **`index.html`** (or **`inkblot.html`**) — open in a browser  
-- **`inkblot.css`** — layout, blob frame, control panel styles  
-- **`inkblot.js`** — Three.js scene, GLSL shader strings, sliders  
+- **`index.html`** (or **`inkblot.html`**) - open in a browser  
+- **`inkblot.css`** - layout, blob frame, control panel styles  
+- **`inkblot.js`** - Three.js scene, GLSL shader strings, sliders  
 
 All three files live in the repo root and must stay **in the same folder** (same relative paths).
 
