@@ -58,6 +58,8 @@ Side note - The clinical Rorschach test uses 10 ink blots while mine are 6 ink b
 **Inspiration:** CRT TV static—that beautiful white noise when there's no signal (or in this case - layered noise).
 _Organic texture comes from layered (octave‑stacked) 3D gradient noise in the fragment shader. Then masking and thresholding turn that field into ink vs paper._
 
+![Gif of noise](https://github.com/pentasir/Ink-blot-animation/blob/81deb052bc1fd034b6edf811e4e97985dd3a1c01/noise.gif)
+
 **The Solution:**
 Instead of morphing pre‑authored DIV blobs, generate **smooth random fields** (layered gradient noise — “noise that feels like texture”) then **posterize / threshold** into ink versus paper:
 
@@ -101,7 +103,7 @@ Also: silhouette *families* are **designed presets** (`15` ellipse parameters in
 2. **Ellipse envelope morph** — interpolated uniform arrays easing between adjacent presets  
 3. **Ink vs paper shaping** via threshold‑relative smooth transitions  
 4. **`requestAnimationFrame` loop** pushes `uTime` + morph easing variables  
-Slider UI live‑edits uniforms & CSS knobs for exploratory tuning ([demo](https://inkblot-eight.vercel.app).
+Slider UI live‑edits uniforms & CSS knobs for exploratory tuning ([demo](https://inkblot-eight.vercel.app)).
 
 ![screenshot of sliders](https://github.com/pentasir/Ink-blot-animation/blob/687d2b59022c8d334fcb85be9d1946c030e81fe4/sliders.png)
 
@@ -146,7 +148,7 @@ Future thought experiment: longevity of ephemeral web art — unknown; worth bui
 
 ---
 
-## The "AI Vibe" Angle
+## The "Vibe Code" Angle
 
 I worked with Claude & Cursor to:
 - Prototype WebGL noise generation algorithms
