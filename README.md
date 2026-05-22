@@ -140,11 +140,11 @@ You can use these values to edit animation configuration on the live code.
 
 ## Learnings / philosophy
 
-Design intuition unlocked the **noise scaffold** (“static you sculpt”) faster than brute forcing mesh morph fantasies inside CSS constraints.
-Synthetic ink also taught me humility: ambiguity is directional — you steer it with masking not hope.
+Design intuition unlocked the **noise scaffold** (“static you sculpt”) faster than brute-forcing mesh-morph fantasies inside CSS constraints.
+Synthetic ink also taught me that ambiguity is directional: you steer it with masking not hope.
 Controlled variation **feels** random to casual viewers yet stays debuggable internally.
-Collaborating with Claude + Cursor was accelerant for shader iteration throughput — aesthetics veto power stayed mine.
-Future thought experiment: longevity of ephemeral web art — unknown; worth building anyway because process compounds.
+Collaborating with Claude + Cursor was accelerant for shader iteration throughput. Aesthetic decisions & veto power on outputs stayed mine.
+Future thought experiment: longevity of ephemeral web art. Unknown; worth building anyway because process compounds for future work.
 
 ---
 
