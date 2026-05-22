@@ -235,7 +235,7 @@ Right‑click ```index.html``` → Open with Live Server.
 
 ---
 
-This animation is live on my website [PENTASIR](https://pentasir.com). Buy my services pls. Or hire me for a remote job <3
+This animation is live on my website [PENTASIR](https://pentasir.com). Buy my services pls. Or hire me for a remote job <3 My [LinkedIn](https://www.linkedin.com/in/jason-don-b01390189/)
 
 ---
 
