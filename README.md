@@ -11,7 +11,7 @@
 
 ## The Vision
 
-For my portfolio website I wanted something that feels like peering into a psychological mirror — an animation that’s alien-esque and ambiguous enough to invite interpretation, like the cultural idea of the Rorschach test (symmetrical “ink blots”), without claiming to recreate the standardised clinical plates.
+For my portfolio website I wanted something that feels like peering into a psychological mirror. An animation that’s alien-esque and ambiguous enough to invite interpretation, like the cultural idea of the Rorschach test (symmetrical “ink blots”), without claiming to recreate the standardised clinical plates.
 
 ---
 
