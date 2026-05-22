@@ -29,7 +29,7 @@ I started with **CSS blob animations** because:
 
 I spent days tweaking CSS blur, animations, and distortion effects but none of those iterations landed the specific silhouette language I wanted.
 
-![screenshot of the CSS blot](https://github.com/pentasir/Ink-blot-animation/blob/e021db5ee5f81986547b69c11ae6da9f4cad9164/cssblur.png)
+![screenshot of the CSS blot](https://github.com/pentasir/Ink-blot-animation/blob/1959aff387556808365be8188d84f7678f85a63c/cssblur.png)
 
 ### Phase 2: The Rorschach Insight
 While researching, I leaned on the **Rorschach ink blot test** (from popular culture (psychology documentaries, film, mythology around “ambiguous images psychology"):
