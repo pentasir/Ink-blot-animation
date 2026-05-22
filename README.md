@@ -172,9 +172,8 @@ This is a power principle for ambiguous art.
 
 ---
 
-## Try it for yourself:
 
-[LIVE DEMO LINK]
+### Try the sliders [here](https://ink-blot-animation-q5lx.vercel.app).
 
 ---
 
@@ -202,7 +201,7 @@ I think in the current age of technology, it is best to add AI to your tech stac
 The project is one HTML file plus Three.js loaded from the internet (cdn.jsdelivr.net). Use a recent Chrome, Firefox, Edge, or Safari with hardware acceleration/WebGL enabled.
 
 Method 1: Open the file directly (quickest try)
-Download inkblot.html.
+Download index.html.
 Double-click it, or drag it into a browser window.
 Works on many setups. If WebGL/CDN scripts are blocked, use Method 2.
 
@@ -210,12 +209,12 @@ Method 2: Tiny local server (recommended)
 Serving over ```http://localhost``` avoids some browser restrictions and matches how demos are usually viewed.
 
 Python 3 (macOS/Linux/Windows, if Python is installed)
-In the folder that contains rorschach-three.html:
+In the folder that contains index.html:
 
 ```python3 -m http.server 8080```
 Then open:
 
-```http://localhost:8080/rorschach-three.html```
+```http://localhost:8080/index.html```
 
 (To stop the server: ```Ctrl+C``` in the terminal.)
 
@@ -226,15 +225,15 @@ Windows might use:
 In the folder with the HTML file:
 
 ```npx --yes serve -p 8080```
-Then open the URL printed in the terminal (often ```http://localhost:8080```) and choose rorschach-three.html.
+Then open the URL printed in the terminal (often ```http://localhost:8080```) and choose index.html.
 
 VS Code — Live Server
 Install extension Live Server.
-Right‑click ```rorschach-three.html``` → Open with Live Server.
+Right‑click ```index.html``` → Open with Live Server.
 
 ---
 
-This animation is live on my website [PENTASIR](https://pentasir.com).
+This animation is live on my website [PENTASIR](https://pentasir.com). Buy my services pls. Or hire me for a remote job <3
 
 ---
 
