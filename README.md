@@ -55,7 +55,7 @@ Side note - The clinical Rorschach test uses 10 ink blots while mine are 6 ink b
 ### Phase 4: The Creative Breakthrough
 **Still stuck emotionally on “liquid metal” → “printed ink blot”**
 
-**Inspiration:** CRT TV static—that beautiful white noise when there's no signal (or in this case - layered noise).
+**Inspiration:** CRT TV static. That beautiful white noise when there's no signal.
 _Organic texture comes from layered (octave‑stacked) 3D gradient noise in the fragment shader. Then masking and thresholding turn that field into ink vs paper._
 
 ![Gif of noise](https://github.com/pentasir/Ink-blot-animation/blob/81deb052bc1fd034b6edf811e4e97985dd3a1c01/noise.gif)
