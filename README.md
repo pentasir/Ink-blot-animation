@@ -71,7 +71,7 @@ Instead of morphing pre‑authored DIV blobs, generate **smooth random fields** 
 
 This produced **organic, ambiguous shapes** **without timestepped physics simulations** (no particles colliding in a solver, no navier‑stokes, etc.). Rendering runs on the **GPU**.
 Different devices mainly differ by **resolution / supersampling budgets / frame pacing / how CSS blur stacks** plus normal GPU/driver variance.
-Also: silhouette *families* are **designed presets** (`15` ellipse parameters interpolated across `6` states) — I’m **not claiming “zero authorship.”** What’s generative is the **changing noise texture** fused with those constraints.
+Also: silhouette *families* are **designed presets** (`15` ellipse parameters interpolated across `6` states). I’m **not claiming “zero authorship.”** What’s generative is the **changing noise texture** fused with those constraints.
 
 
 ### Phase 5: Engineering for the Web
