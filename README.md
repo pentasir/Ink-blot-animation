@@ -150,7 +150,7 @@ Future thought experiment: longevity of ephemeral web art. Unknown; worth buildi
 
 ## The "Vibe Code" Angle
 
-I worked with Claude & Cursor to:
+I used Claude & Cursor to:
 - Prototype WebGL noise generation algorithms
 - Debug the fragment shader logic
 - Optimise performance bottlenecks
