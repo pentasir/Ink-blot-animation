@@ -173,6 +173,8 @@ By autumn the blot had learned to move like something with weight, lagging and w
 
 *This version runs on [pentasir.com](https://pentasir.com). The code in this repository is still the earlier slider sandbox.*
 
+![GIF of the chameleon ink blot: black ink with faint blue-black and bronze pulses](chameleon.gif)
+
 ### What the research said
 
 - Teyssier et al. (2015, *Nature Communications*) showed how the colour works. Panther chameleons change colour by tuning a lattice of guanine nanocrystals inside skin cells called iridophores. Packed tightly, the lattice reflects blue, which mixes with a yellow pigment layer and reads as green. When the animal is excited, the spacing grows by about 30% and the reflection slides toward yellow, orange and red. The change takes a couple of minutes and is fully reversible.
@@ -192,6 +194,10 @@ Three ideas stayed with me: colour that jumps sporadically rather than drifting 
 - The sheen runs from blue-black through a neutral charcoal to a dark, red-leaning bronze at the strongest peaks, like light on a raven's feather. At a glance it still reads as black ink.
 
 ### What did not work
+
+![Five stages of the chameleon experiment, left to right](chameleon-evolution.png)
+
+*Left to right: the full spectrum, melanin dimming (as Safari rendered it), plain grey pulses, iridescent black while it still had greens and bronze, and the final version.*
 
 | Attempt | What happened |
 |---------|---------------|
