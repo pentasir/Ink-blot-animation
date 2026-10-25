@@ -167,6 +167,51 @@ personal/ side note - I think in the current age of technology it is best to add
 
 ---
 
+## Phase 6: The Chameleon (October 2026)
+
+By autumn the blot had learned to move like something with weight, lagging and wobbling and leaning toward the cursor the way ferrofluid leans toward a magnet, and yet it was still only ink, black on white, the same dark body turning patiently through its six moods. I began to wonder what it would mean for the ink to be alive in its skin as well as in its shape, and that question led me, as these questions tend to, somewhere I had not planned to go: to the chameleon, and in particular to the strange behaviour of its colours at the very end of its life.
+
+*This version runs on [pentasir.com](https://pentasir.com). The code in this repository is still the earlier slider sandbox.*
+
+### What the research said
+
+- Teyssier et al. (2015, *Nature Communications*) showed how the colour works. Panther chameleons change colour by tuning a lattice of guanine nanocrystals inside skin cells called iridophores. Packed tightly, the lattice reflects blue, which mixes with a yellow pigment layer and reads as green. When the animal is excited, the spacing grows by about 30% and the reflection slides toward yellow, orange and red. The change takes a couple of minutes and is fully reversible.
+- Labord's chameleon (*Furcifer labordi*) lives only four to five months after hatching, and the females die within hours of laying their eggs. In 2024 a crew filming PBS's *Big Little Journeys* in Kirindy Forest, Madagascar, caught one female's final hours on time-lapse, and her skin flared into chaotic, shifting patterns. The producer and the herpetologist Chris Raxworthy put it down to nerve signals still firing as the body shut down, so what looks like a display is really a control system coming apart.
+- What happens to the colour after death is poorly recorded. Owners describe everything from black to pale to bright green, and I could not find a peer-reviewed study.
+
+### What I took from it
+
+Three ideas stayed with me: colour that jumps sporadically rather than drifting politely; a colour order grounded in the physics of the lattice, from packed to spread; and change that travels across the skin in separate patches rather than all at once. The fourth idea, the slow fade to drab brown that the research hints at, I left behind on purpose, because I did not want the blot to die.
+
+### How it works
+
+- The `blur(6px) contrast(9)` filter that gives the ink its wet edge would crush any colour drawn inside it, so the colour lives on its own WebGL canvas, screen-blended over the ink. Screen over white stays white and screen over black takes the colour, so the tint only ever shows through the ink.
+- The skin is a jittered grid of soft patches, mirrored like the ink. Each patch tunes its own "lattice spacing" with a slow drift plus sporadic snaps to a new value.
+- Each patch beats on its own clock, every 3.6 to 6.3 seconds: a sharp snap of about a tenth of a second, then a slow settle. The left and right halves keep separate clocks, so the pulses break the mirror while the shape stays symmetric.
+- The same beat swells the ink locally. It is added to the noise before thresholding, so the edges stay crisp, and it is centred on the beat's average, so the blot keeps its weight.
+- The sheen runs from blue-black through a neutral charcoal to a dark, red-leaning bronze at the strongest peaks, like light on a raven's feather. At a glance it still reads as black ink.
+
+### What did not work
+
+| Attempt | What happened |
+|---------|---------------|
+| The full spectrum, blue through red | Beautiful, but loud on a monochrome site |
+| Dimming the colour between beats (melanin) | Muddy; the resting state is what people see most of the time |
+| Plain grey pulses | 70% grey looked like light leaking through; 30% grey disappeared, because the eye barely notices small changes in brightness near black |
+| Green and violet in the sheen | Read as colour rather than black; a lighter, yellower bronze also read as olive, so the bronze had to go darker and redder |
+| A slow, breathing swell | Felt sluggish; a quick snap with a slow settle felt alive |
+| Rendering the pulsing ink at 3x pixel density | Chrome dropped from about 120 fps to between 86 and 102; capping at 2x and a cheaper patch warp brought it back to about 115 |
+
+### Small things the browsers taught me
+
+- Safari renders the sheen darker and less saturated than Chrome. I prefer Safari's version.
+- three.js is now self-hosted, so no visitor's IP address goes to a CDN, the same reason the site's fonts are self-hosted.
+- If a browser refuses the second WebGL context, the sheen is skipped and the black ink keeps moving on its own.
+
+Most people will never notice the bronze, or that the pulses on the left and right never quite agree, and I find that I do not mind; I know they are there, in the way one knows a clock in another room is still keeping time.
+
+---
+
 ## Setup & Running Locally
 One HTML artifact + remote Three.js CDN (`cdn.jsdelivr.net`). Use a WebGL‑capable modern browser (+ network access for CDN pull).
 ### Method A: Quick open (`file:`)
