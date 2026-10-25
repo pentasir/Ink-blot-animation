@@ -271,7 +271,7 @@ Portfolio embed: [PENTASIR](https://pentasir.com)
 
 Interactive sliders build: [sandbox](https://inkblot-eight.vercel.app)
 
-Professional enquiries/ remote jobs are welcome - [LinkedIn](https://www.linkedin.com/in/jason-don-b01390189/)
+Professional enquiries/ remote jobs are welcome - [LinkedIn](https://www.linkedin.com/in/jason-k-don-b01390189/)
 
 
 ---
